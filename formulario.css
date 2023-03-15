@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(185, 184, 174);
+}
+.caixa{
+    background-color: rgb(186, 204, 204);
+}
+.texto{
+    width: 100%;
+}
+.bt1{
+    width: 70px;
+    height: 30px;
+}
+.bt2{
+    width: 70px;
+    height: 30px;
+}
+.bt1:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+    border-radius: 4px;
+    transform: scale(1.1,1.1);
+}
+.bt2:hover{
+    background-color: red;
+    cursor: pointer;
+    border-radius: 4px;
+    transform: scale(1.1,1.1);
+    }

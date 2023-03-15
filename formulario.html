@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="icon" href="formulario.png">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+<body>
+    <fieldset class="caixa">
+        <legend>Dados Pessoais</legend>
+        Nome:<input type="text" class="caixa_larga" id="nome">
+        <br><br>
+        Endereço:<input type="text" class="caixa_larga" id="endereco">
+        <br><br>
+        Cidade:<input type="text" class="caixa_larga" id="cidade">
+        <br><br>
+        Estado:<select id="estado" class="estado">
+            <option>Santa Catarina</option>
+            <option>São Paulo</option>
+            <option>Paraná</option>
+            </select>
+        <br><br>
+    </fieldset>
+    <br><br>
+    <fieldset class="caixa">
+        <legend>Dados parofissionais</legend>
+        Natureza do cargo:<br>
+        <input type="radio">Gerência
+        <input type="radio">Financeiro
+        <input type="radio">Recepção
+        <input type="radio">Administrativo
+        <input type="radio">Jurídico
+        <br><br>
+        Área de interesse
+        <input type="checkbox"  class="computacao" id="computacao">Computação
+        <input type="checkbox"  class="biologia" id="biologia">Biologia
+        <input type="checkbox"  class="Meio Ambiante" id="Meio Ambiante">Meio Ambiante
+        <input type="checkbox"  class="Engenharia" id="Engenharia">Engenharia
+        <input type="checkbox"  class="História" id="História">História
+        <br>
+        Mini-currículo:<br><textarea class="texto" id="curriculo"></textarea>
+    </fieldset>
+    <br><br>
+    <button class="bt1">Enviar</button>
+    <button class="bt2">Limpar</button>
+
+    
+
+</body>
+</html>
